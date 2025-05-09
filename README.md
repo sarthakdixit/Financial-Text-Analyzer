@@ -30,4 +30,4 @@ uvicorn app.main:app --reload
 ### 2. Enable Developer Mode (top-right toggle)
 ### 3. Click "Load unpacked"
 ### 4. Select the folder containing the extension (e.g., `financial-text-analyzer-client/dist/`)
-### 5. If 'dist/' folder is not available than build the react app.
+### 5. If `dist/` folder is not available than build the react app.
