@@ -45,6 +45,6 @@ class BERTService:
     def summarize_text(self, text: str):
         word_count = len(text.split())
         min_length = max(20, int(0.1 * word_count))
-        max_length = max(40, int(0.5 * word_count))
+        max_length = max(40, int(0.8 * word_count))
         summary = self.summarizer(text, max_length=max_length, min_length=min_length, do_sample=False)
         return summary[0]['summary_text']
